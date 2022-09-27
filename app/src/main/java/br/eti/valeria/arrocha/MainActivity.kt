@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
                 this@MainActivity.etNumero.setText("")
             }catch (e: NumberFormatException){
-                Toast.makeText(this@MainActivity, "Digite um número válido", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "DIGITE UM NÚMERO", Toast.LENGTH_SHORT).show()
             }
         }
     }
